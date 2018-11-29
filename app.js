@@ -28,4 +28,3 @@ switch (command) {
         deleteNote(title, json);
         break;
 }
-
