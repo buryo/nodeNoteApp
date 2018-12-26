@@ -16,11 +16,11 @@ switch (command) {
         getAllNotes(json);
         break;
     case 'add':
-        // e.g: node app.js add --title="titel 3" --body="weet ik het?"
+        // e.g: node app.js add --title="title3" --body="weet ik het?"
         addNote(title, body, json);
         break;
     case 'read':
-        // e.g: node app.js read --title="titel 3"
+        // e.g: node app.js read --title="title3
         console.log(getSpecificNote(title, json));
         break;
     case 'delete':
